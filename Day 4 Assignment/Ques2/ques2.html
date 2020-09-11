@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-4 Question2</title>
+    <style>
+        body {
+            background-color: cadetblue;
+        }
+        
+        h1 {
+            text-align: center;
+            font-size: 40px;
+            font-family: cursive;
+        }
+        
+        table {
+            margin: 10px auto;
+        }
+        
+        table,
+        tr,
+        td {
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+        
+        table tr td:first-child {
+            font-weight: bold;
+            font-size: 20px;
+        }
+        
+        table tr td:nth-child(2) input {
+            padding: 10px;
+            width: 450px;
+        }
+        
+        table tr td:nth-child(3) button {
+            font-size: 20px;
+            cursor: pointer;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Form</h1>
+    <table>
+        <tr>
+            <td>Address:</td>
+            <td><input type="text" placeholder="Enter Your Address" id="text1"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Permanant Address:</td>
+            <td><input type="text" placeholder="Enter Your Permanant Address" id="text2"></td>
+            <td><button type="button" onclick="copyText()">Click Here</button>
+                <span>&lt;&lt; Click here to Copy Above Text</span>
+            </td>
+        </tr>
+    </table>
+    <script src="ques2.js"></script>
+</body>
+
+</html>

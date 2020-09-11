@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-4 Question 1</title>
+    <style>
+        body {
+            background-color: burlywood;
+        }
+        
+        h1 {
+            text-align: center;
+            font-size: 40px;
+            font-family: cursive;
+        }
+        
+        #image {
+            width: 510px;
+            height: 340px;
+            border: 2px solid black;
+            padding: 5px;
+            margin: 0 auto;
+        }
+        
+        #image img {
+            width: 510px;
+            height: 340px;
+        }
+        
+        #buttons {
+            width: 100vw;
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 20px;
+        }
+        
+        #buttons button {
+            width: 30%;
+            height: 35px;
+            cursor: pointer;
+            background-color: rgb(82, 187, 96);
+            border-radius: 23px;
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Image Changer </h1>
+    <div id="image">
+        <img src="https://cdn.pixabay.com/photo/2015/06/19/21/24/the-road-815297__340.jpg" alt="Image-1" id="img">
+    </div>
+    <div id="buttons">
+        <button type="button" onclick="button1()">Image 1</button>
+        <button type="button" onclick="button2()">Image 2</button>
+        <button type="button" onclick="button3()">Image 3</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
