@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Application</title>
+    <!-- <link rel="stylesheet" href="index.css"> -->
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            background-color: blanchedalmond;
+        }
+        
+        h1 {
+            text-align: center;
+            color: Green;
+        }
+        
+        #form_table {
+            margin: 0 auto;
+        }
+        
+        #data_table {
+            border: 1px solid black;
+            width: 80%;
+            margin: 10px auto;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        
+        #data_table tr th {
+            font-size: 25px;
+        }
+        
+        #data_table tr td {
+            padding: 10px;
+        }
+        
+        button {
+            padding: 10px;
+            background-color: red;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Employee Recorder</h1>
+    <div class="data">
+
+        <div class="form">
+            <form>
+                <table id="form_table">
+                    <tr>
+                        <td> <input type="text" id="searchemp" placeholder="Start searching here..." onkeyup="searchByName()"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+
+        <table border="1" id="data_table">
+            <thead>
+                <tr>
+                    <th>Sr.no</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>City</th>
+                    <th>Salary</th>
+                    <th>Actions</th>
+
+                </tr>
+            </thead>
+            <tbody class="tdata">
+
+            </tbody>
+        </table>
+    </div>
+
+
+    <!-- <script src="index.js"></script> -->
+    <script src="ques1.js"></script>
+
+
+</body>
+
+</html>
