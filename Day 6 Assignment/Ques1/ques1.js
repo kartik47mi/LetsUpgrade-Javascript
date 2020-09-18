@@ -18,6 +18,11 @@ let employeeData = [{
     age: 26,
     city: "gangapur",
     salary: 9000
+},{
+    name: "Piyush",
+    age: 17,
+    city: "new Delhi",
+    salary: 7654
 }];
 
 function display(superarray) {
